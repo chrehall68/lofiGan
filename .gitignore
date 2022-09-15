@@ -1,0 +1,5 @@
+venv/
+generatedAudio/
+.ipynb_checkpoints/
+discriminatorContinued/
+generatorContinued/
