@@ -39,6 +39,7 @@ file_confs = [
     ("lofi-part11.wav", "100", "200", "0"),
     ("lofi-part12.wav", "100", "200", "0"),
     ("lofi-part13.wav", "100", "200", "0"),
+    ("lofi-part14.wav", "100", "200", "0"),
 ]
 
 # wait for setup

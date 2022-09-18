@@ -3,3 +3,4 @@ generatedAudio/
 .ipynb_checkpoints/
 discriminatorContinued/
 generatorContinued/
+logs/
