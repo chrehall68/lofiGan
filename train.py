@@ -40,11 +40,15 @@ file_confs = [
     ("lofi-part12.wav", "100", "200", "0"),
     ("lofi-part13.wav", "100", "200", "0"),
     ("lofi-part14.wav", "100", "200", "0"),
+    ("lofi-part15.wav", "100", "200", "0"),
+    ("lofi-part16.wav", "100", "200", "0"),
 ]
 
 # wait for setup
 time.sleep(10)
-print(f"Will finish in {(7 * 400 + 310)*len(file_confs) / 60} minutes")
+
+time_per_epoch = 28
+print(f"Will finish in {(time_per_epoch * 400 + 310)*len(file_confs) / 60} minutes")
 
 for file_conf in file_confs:
     write_file_conf(*file_conf)
@@ -59,4 +63,4 @@ for file_conf in file_confs:
     p.moveTo(run_all_button)
     click()
 
-    time.sleep(7 * 400 + 300)
+    time.sleep(time_per_epoch * 400 + 300)
