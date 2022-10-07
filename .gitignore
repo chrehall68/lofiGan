@@ -1,6 +1,18 @@
+# misc
 venv/
-generatedAudio/
 .ipynb_checkpoints/
+logs/
+
+# v1 stuff
+generatedAudio/
 discriminatorContinued/
 generatorContinued/
-logs/
+generator/
+discriminator/
+
+# v2 stuff
+generatorv2Continued/
+generatedAudiov2/
+discriminatorv2Continued/
+generatorv2/
+discriminatorv2/
